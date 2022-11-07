@@ -10,6 +10,8 @@ class Setup(BaseModel):
     sections: List[str] = []
 
 
+
+
 class Repo:
 
     def __init__(self,
@@ -18,14 +20,15 @@ class Repo:
       github_data: dict,
       setup=Setup(),
       topics: List[str] = [],
-        py_files: List[str] = []
+        py_files: List[str] = [],
+        inodes: dict = {}
       ):
         self.name = name
         self.url = url
         self.setup = setup
         self.topics = topics
         self.github_data = github_data
-        self.py_files = py_files
+        self.inodes = inodes
     
     def serialize(self):
         return {
@@ -33,5 +36,5 @@ class Repo:
             "url": self.url,
             "setup": self.setup.dict(),
             "topics": self.topics,
-            "py_files": self.py_files
+            "indoes": self.inodes
         }

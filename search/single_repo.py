@@ -1,13 +1,13 @@
 import json
 import os
+import re
 
 
-def enum_filename(repo_dir_path,inode_name,isFile):
+def enum_filename(repo_dir_path,inode_name,isFile=True):
     indoes = []    
-    print('here')    
+    if '*' in inode_name:
+        inode_name = inode_name.replace('*','')
     for file in os.listdir(repo_dir_path):
-        print(file)
-        print(isFile)
         if isFile:
             if os.path.isdir(os.path.join(repo_dir_path,file)):
                 indoes.extend(enum_filename(os.path.join(repo_dir_path,file),inode_name))

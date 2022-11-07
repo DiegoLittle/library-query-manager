@@ -1,8 +1,8 @@
+import copy
 import json
 import os
 from models import Repo, Setup
-from search.inode_search import search_inodes
-from search.single_repo import enum_filename, enum_python_files, enumerate_code_blocks
+from search.single_repo import enum_filename, enumerate_code_blocks
 import shutil
 
 
@@ -21,20 +21,18 @@ def enumerate_repos(query,config):
         repo_dir_path = os.path.join(repos_dir,repo_dir)
         # inodes = search_inodes(repo_dir_path)
         for file in os.listdir(repo_dir_path):
-            
-            py_files = enum_python_files(repo_dir_path)
-            repo.py_files = py_files
+            # py_files = enum_python_files(repo_dir_path)
+            for inode in config['repo']['search']['inodes']:
+                indoes = enum_filename(repo_dir_path,inode)
+                repo.inodes[inode] = indoes
             if 'README' in file:
                 with open(repos_dir+'/'+repo_dir+'/'+file, 'r') as f:
                     readme = f.read()
-                
-
                 sections = []
                 lines = readme.split('\n')
                 for line in lines:
                     if line.startswith('#'):
                         sections.append(line)
-                    
                 setup.sections = sections
 
                 setup.clone = 'git clone' in readme
@@ -46,7 +44,8 @@ def enumerate_repos(query,config):
                 enumerate_code_blocks(readme,setup)
                 # if len(setup.installs) > 0:
                 repo.setup = setup
-                repos.append(repo.serialize())
+        repos.append(copy.deepcopy(repo.serialize()))
+    # repos = [repo.serialize() for repo in repos]
     with open(save_path, 'w') as f:
         f.write(json.dumps(repos, indent=4))
     

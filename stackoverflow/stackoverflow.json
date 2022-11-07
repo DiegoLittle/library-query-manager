@@ -1,0 +1,429 @@
+{
+    "items": [
+        {
+            "tags": [
+                "python-3.x",
+                "abstract-syntax-tree",
+                "esprima-python"
+            ],
+            "owner": {
+                "account_id": 16308876,
+                "reputation": 79,
+                "user_id": 11778122,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/1449324588543878/picture?type=large",
+                "display_name": "JJ Cauton",
+                "link": "https://stackoverflow.com/users/11778122/jj-cauton"
+            },
+            "is_answered": false,
+            "view_count": 39,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1657442947,
+            "creation_date": 1657442947,
+            "question_id": 72927255,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/72927255/how-do-i-remove-a-node-in-a-ast-tree-using-esprima-in-python",
+            "title": "How do I remove a node in a ast tree using esprima in python?"
+        },
+        {
+            "tags": [
+                "python",
+                "esprima-python"
+            ],
+            "owner": {
+                "account_id": 16308876,
+                "reputation": 79,
+                "user_id": 11778122,
+                "user_type": "registered",
+                "profile_image": "https://graph.facebook.com/1449324588543878/picture?type=large",
+                "display_name": "JJ Cauton",
+                "link": "https://stackoverflow.com/users/11778122/jj-cauton"
+            },
+            "is_answered": false,
+            "view_count": 35,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1656705574,
+            "creation_date": 1656677769,
+            "last_edit_date": 1656705574,
+            "question_id": 72829129,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/72829129/how-to-replace-and-insert-a-new-node-into-a-ast-tree-using-esprima-for-python",
+            "title": "How to replace and insert a new node into a ast tree using esprima for python?"
+        },
+        {
+            "tags": [
+                "javascript",
+                "python",
+                "node.js",
+                "parsing"
+            ],
+            "owner": {
+                "account_id": 4707870,
+                "reputation": 9968,
+                "user_id": 3809375,
+                "user_type": "registered",
+                "accept_rate": 83,
+                "profile_image": "https://i.stack.imgur.com/EA10l.png?s=256&g=1",
+                "display_name": "BPL",
+                "link": "https://stackoverflow.com/users/3809375/bpl"
+            },
+            "is_answered": true,
+            "view_count": 564,
+            "answer_count": 2,
+            "score": 2,
+            "last_activity_date": 1638012651,
+            "creation_date": 1637179413,
+            "question_id": 70010850,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/70010850/how-to-parse-extract-javascript-class-methods",
+            "title": "How to parse &amp; extract javascript class methods?"
+        },
+        {
+            "tags": [
+                "node.js",
+                "webpack",
+                "caching",
+                "registry",
+                "npm-install"
+            ],
+            "owner": {
+                "account_id": 22173134,
+                "reputation": 19,
+                "user_id": 16418162,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/a-/AOh14Gih24IhaKUyxbCeSpPOn66_PF4Wde50jL-HlsHMlA=k-s256",
+                "display_name": "Sachin",
+                "link": "https://stackoverflow.com/users/16418162/sachin"
+            },
+            "is_answered": false,
+            "view_count": 6859,
+            "answer_count": 2,
+            "score": 1,
+            "last_activity_date": 1636136824,
+            "creation_date": 1633880034,
+            "last_edit_date": 1633888441,
+            "question_id": 69516584,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/69516584/npm-install-failing-with-error-error-build-failed-with-error-code-1",
+            "title": "npm install failing with error &quot;error Build failed with error code: 1&quot;"
+        },
+        {
+            "tags": [
+                "abstract-syntax-tree",
+                "esprima",
+                "esprima-python"
+            ],
+            "owner": {
+                "account_id": 2526078,
+                "reputation": 2864,
+                "user_id": 2195440,
+                "user_type": "registered",
+                "accept_rate": 58,
+                "profile_image": "https://www.gravatar.com/avatar/3bab6dd8e8cd71a3e564d68189721571?s=256&d=identicon&r=PG",
+                "display_name": "Exploring",
+                "link": "https://stackoverflow.com/users/2195440/exploring"
+            },
+            "is_answered": false,
+            "view_count": 105,
+            "answer_count": 0,
+            "score": 1,
+            "last_activity_date": 1613466270,
+            "creation_date": 1613466270,
+            "question_id": 66221410,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/66221410/how-to-generate-all-the-leaf-to-leaf-path-in-an-ast",
+            "title": "How to generate all the leaf to leaf path in an AST?"
+        },
+        {
+            "tags": [
+                "python",
+                "beautifulsoup",
+                "esprima-python"
+            ],
+            "owner": {
+                "account_id": 13879186,
+                "reputation": 33,
+                "user_id": 10019965,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/HK6Ny.jpg?s=256&g=1",
+                "display_name": "Shaggy",
+                "link": "https://stackoverflow.com/users/10019965/shaggy"
+            },
+            "is_answered": true,
+            "view_count": 172,
+            "accepted_answer_id": 62120116,
+            "answer_count": 1,
+            "score": 1,
+            "last_activity_date": 1596496110,
+            "creation_date": 1590946240,
+            "last_edit_date": 1596496110,
+            "question_id": 62120029,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/62120029/python-beautifulsoup-how-to-extract-var-result-from-javascript-element",
+            "title": "Python BeautifulSoup how to extract var result from javascript element?"
+        },
+        {
+            "tags": [
+                "python",
+                "pip",
+                "sublimetext3",
+                "sublimecodeintel"
+            ],
+            "owner": {
+                "account_id": 2274167,
+                "reputation": 427,
+                "user_id": 2000874,
+                "user_type": "registered",
+                "accept_rate": 14,
+                "profile_image": "https://www.gravatar.com/avatar/4c68ba0f1bbaa92c1f38b09d6c2543d4?s=256&d=identicon&r=PG",
+                "display_name": "MarketHubb",
+                "link": "https://stackoverflow.com/users/2000874/markethubb"
+            },
+            "is_answered": false,
+            "view_count": 510,
+            "answer_count": 0,
+            "score": 3,
+            "last_activity_date": 1590873766,
+            "creation_date": 1513103812,
+            "last_edit_date": 1590873766,
+            "question_id": 47779372,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/47779372/how-to-install-and-build-codeintel-with-pip-for-sublime-text",
+            "title": "How to install and build CodeIntel with Pip for Sublime Text"
+        },
+        {
+            "tags": [
+                "python",
+                "json",
+                "dictionary",
+                "recursion",
+                "arraylist"
+            ],
+            "owner": {
+                "account_id": 3046370,
+                "reputation": 320,
+                "user_id": 4741225,
+                "user_type": "registered",
+                "profile_image": "https://i.stack.imgur.com/sVtzl.png?s=256&g=1",
+                "display_name": "Alin",
+                "link": "https://stackoverflow.com/users/4741225/alin"
+            },
+            "is_answered": false,
+            "view_count": 51,
+            "answer_count": 0,
+            "score": 0,
+            "last_activity_date": 1533900449,
+            "creation_date": 1533893438,
+            "last_edit_date": 1533900449,
+            "question_id": 51783374,
+            "content_license": "CC BY-SA 4.0",
+            "link": "https://stackoverflow.com/questions/51783374/recursively-find-the-path-location-of-a-value-in-a-list",
+            "title": "Recursively find the path &amp; location of a value in a list"
+        },
+        {
+            "tags": [
+                "python",
+                "django",
+                "web",
+                "openedx"
+            ],
+            "owner": {
+                "account_id": 4903144,
+                "reputation": 148,
+                "user_id": 3950697,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/?s=256&d=identicon&r=PG&f=1",
+                "display_name": "Marwin Lebensky",
+                "link": "https://stackoverflow.com/users/3950697/marwin-lebensky"
+            },
+            "is_answered": true,
+            "view_count": 1197,
+            "answer_count": 1,
+            "score": 2,
+            "last_activity_date": 1517576870,
+            "creation_date": 1481639388,
+            "question_id": 41123557,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/41123557/how-to-properly-install-open-edx-e-commerce-service",
+            "title": "How to properly install Open edX e-commerce service?"
+        },
+        {
+            "tags": [
+                "javascript",
+                "specifications"
+            ],
+            "owner": {
+                "account_id": 1432273,
+                "reputation": 5453,
+                "user_id": 1354439,
+                "user_type": "registered",
+                "accept_rate": 95,
+                "profile_image": "https://www.gravatar.com/avatar/39d9f2c1402ebfa17e74258b5039c64d?s=256&d=identicon&r=PG",
+                "display_name": "Piotr Dabkowski",
+                "link": "https://stackoverflow.com/users/1354439/piotr-dabkowski"
+            },
+            "is_answered": true,
+            "view_count": 128,
+            "accepted_answer_id": 35324411,
+            "answer_count": 1,
+            "score": 1,
+            "last_activity_date": 1455133268,
+            "creation_date": 1455132181,
+            "last_edit_date": 1455132729,
+            "question_id": 35324136,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/35324136/javascript-8-literal",
+            "title": "JavaScript &quot;\\8&quot; literal"
+        },
+        {
+            "tags": [
+                "node.js",
+                "gruntjs",
+                "npm",
+                "bower",
+                "yeoman"
+            ],
+            "owner": {
+                "account_id": 6609450,
+                "reputation": 327,
+                "user_id": 5105137,
+                "user_type": "registered",
+                "accept_rate": 80,
+                "profile_image": "https://www.gravatar.com/avatar/756625219c1cfaf6831b5fc0f0f8a918?s=256&d=identicon&r=PG&f=1",
+                "display_name": "Reed Williams",
+                "link": "https://stackoverflow.com/users/5105137/reed-williams"
+            },
+            "is_answered": true,
+            "view_count": 704,
+            "accepted_answer_id": 32551338,
+            "answer_count": 1,
+            "score": -1,
+            "last_activity_date": 1442158451,
+            "creation_date": 1442158079,
+            "question_id": 32551275,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/32551275/yeoman-yo-bower-npm-grunt-gulp-oh-my-but-really-about-these-errors",
+            "title": "YEOMAN: yo, bower, npm, Grunt &amp; Gulp...OH MY!!!...but really, about these errors during install."
+        },
+        {
+            "tags": [
+                "javascript",
+                "c#",
+                "closures",
+                "ecmascript-6",
+                "iqueryable"
+            ],
+            "owner": {
+                "account_id": 6026228,
+                "reputation": 23,
+                "user_id": 4731839,
+                "user_type": "registered",
+                "profile_image": "https://www.gravatar.com/avatar/0bc6209851a8569a7c9c1f7c25db3aaa?s=256&d=identicon&r=PG&f=1",
+                "display_name": "StrongFlavor",
+                "link": "https://stackoverflow.com/users/4731839/strongflavor"
+            },
+            "is_answered": true,
+            "view_count": 702,
+            "accepted_answer_id": 31201989,
+            "answer_count": 1,
+            "score": 2,
+            "last_activity_date": 1435911748,
+            "creation_date": 1435895258,
+            "last_edit_date": 1435895343,
+            "question_id": 31198105,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/31198105/building-a-linq-like-query-api-in-javascript",
+            "title": "Building a LINQ-like query API in JavaScript"
+        },
+        {
+            "tags": [
+                "python",
+                "node.js"
+            ],
+            "owner": {
+                "account_id": 5810064,
+                "reputation": 11,
+                "user_id": 4581453,
+                "user_type": "registered",
+                "profile_image": "https://lh3.googleusercontent.com/-ftOrAlC6nxg/AAAAAAAAAAI/AAAAAAAAAJw/_m31VRPv7ko/photo.jpg?sz=256",
+                "display_name": "David Durand",
+                "link": "https://stackoverflow.com/users/4581453/david-durand"
+            },
+            "is_answered": false,
+            "view_count": 551,
+            "answer_count": 0,
+            "score": 1,
+            "last_activity_date": 1424298236,
+            "creation_date": 1424298236,
+            "question_id": 28595134,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/28595134/python-causing-econnreset-error-in-node-on-recv",
+            "title": "Python causing ECONNRESET error in Node on recv"
+        },
+        {
+            "tags": [
+                "javascript",
+                "npm",
+                "yeoman",
+                "yeoman-generator",
+                "yeoman-generator-angular"
+            ],
+            "owner": {
+                "account_id": 3284799,
+                "reputation": 113,
+                "user_id": 2764552,
+                "user_type": "registered",
+                "accept_rate": 100,
+                "profile_image": "https://www.gravatar.com/avatar/?s=256&d=identicon&r=PG&f=1",
+                "display_name": "tTac",
+                "link": "https://stackoverflow.com/users/2764552/ttac"
+            },
+            "is_answered": true,
+            "view_count": 18541,
+            "accepted_answer_id": 24831740,
+            "answer_count": 2,
+            "score": 7,
+            "last_activity_date": 1424205648,
+            "creation_date": 1405704419,
+            "last_edit_date": 1405707833,
+            "question_id": 24830643,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/24830643/yeoman-io-problems-installing-generator-angular",
+            "title": "Yeoman.io problems installing generator-angular"
+        },
+        {
+            "tags": [
+                "python",
+                "node.js",
+                "python-3.x",
+                "npm",
+                "python-2.x"
+            ],
+            "owner": {
+                "account_id": 2348193,
+                "reputation": 7816,
+                "user_id": 2057814,
+                "user_type": "registered",
+                "accept_rate": 83,
+                "profile_image": "https://www.gravatar.com/avatar/ba800182f97b0bd5a053b76a5f695bed?s=256&d=identicon&r=PG",
+                "display_name": "trysis",
+                "link": "https://stackoverflow.com/users/2057814/trysis"
+            },
+            "is_answered": true,
+            "view_count": 3266,
+            "answer_count": 2,
+            "score": 6,
+            "last_activity_date": 1405437763,
+            "creation_date": 1405359582,
+            "question_id": 24742455,
+            "content_license": "CC BY-SA 3.0",
+            "link": "https://stackoverflow.com/questions/24742455/npm-use-2-versions-of-python",
+            "title": "npm Use 2 Versions of Python"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 290
+}

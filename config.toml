@@ -1,14 +1,13 @@
 [repos]
 num_repos = 3
-languages = ['typescript','javascript','python']
-query = "language server"
-delete_repos = true
+languages = ['python']
+query = "esprima"
+delete_repos = false
 
 [repo.search]
-inodes_search = ['*.ts','*.js']
+inodes = ['*.py']
 
 
 [package_managers]
 pypi = true
 npm = false
-

@@ -3,5 +3,4 @@ requests
 pandas
 python-dotenv
 sentence-transformers
-
-
+beautifulsoup4
