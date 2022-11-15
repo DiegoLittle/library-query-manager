@@ -1,11 +1,11 @@
 [repos]
 num_repos = 3
-languages = ['python']
+languages = ['javascript','typescript']
 query = "esprima"
 delete_repos = false
 
 [repo.search]
-inodes = ['*.py']
+inodes = ['next.config.js','tailwind.config.cjs']
 
 
 [package_managers]
