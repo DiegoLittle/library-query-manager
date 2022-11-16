@@ -1,4 +1,4 @@
-const qualifiers = {
+export const qualifiers = {
     "training": false,
     "pretrained": true,
 }

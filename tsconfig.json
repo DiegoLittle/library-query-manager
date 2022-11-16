@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "target": "ES2021",
+      "moduleResolution": "Node",
+      "module": "NodeNext",
+      "lib":["ESNext","DOM"],
+      "incremental": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "declaration": true
+    },
+    "exclude": ["node_modules", "dist"]
+  }
+  

@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import { join } from 'path';
+import { Config, Setup } from '../types';
 
 
 export function enumFilename(repoDirPath: string, inodeName: string, isFile: boolean = true): string[] {
@@ -74,3 +75,43 @@ export function enumPythonFiles(repoDirPath: string): string[] {
 
     return pythonFiles;
 }
+
+export function enumerateRepo(name: string,config:Config) {
+    const repo_dir_path = `/tmp/data/repos/${name}`
+        // const repo = new Repo(repo_dir, this.github_data['html_url'], repo_api_obj, repo_api_obj['topics']);
+    const setup: Setup = {}
+        const inodes = {}
+        // inodes = search_inodes(repo_dir_path)
+        for (const file of fs.readdirSync(repo_dir_path)) {
+            // py_files = enum_python_files(repo_dir_path)
+            for (const inode of config['repo']['search']['inodes']) {
+                const indoes = enumFilename(repo_dir_path, inode);
+                inodes[inode] = indoes;
+            }
+            if (file.includes('README')) {
+                const readme = fs.readFileSync(repo_dir_path + '/' + file, 'utf8');
+                const sections: string[] = [];
+                const lines = readme.split('\n');
+                for (const line of lines) {
+                    if (line.startsWith('#')) {
+                        sections.push(line);
+                    }
+                }
+                setup.sections = sections;
+                setup.clone = readme.includes('git clone');
+                if (readme.includes('pip install')) {
+                    setup.package_manager = 'pip';
+                } else if (readme.includes('conda install')) {
+                    setup.package_manager = 'conda';
+                }
+                enumerateCodeBlocks(readme, setup);
+                // if len(setup.installs) > 0:
+                
+            }
+        }
+    return {
+        setup,
+        inodes
+    }
+}
+

@@ -43,7 +43,7 @@ async function queryRepos(
   return items;
 }
 
-export async function getRepos(query: string, config:any): Promise<void> {
+export async function getRepos(query: string, config: any): Promise<void> {
   console.log("Getting repos");
   const fileDirectory = join("./data", query.replace(" ", "_"));
   if (!(await fs.existsSync(fileDirectory))) {
@@ -79,19 +79,28 @@ export async function downloadRepos(query: string): Promise<void> {
 }
 
 export async function downloadRepo(repo: string): Promise<void> {
-  return new Promise((resolve, reject) => { 
-    const downloadDir = "/tmp/data/repos"
-  if (!(fs.existsSync('/tmp/data'))) {
-      fs.mkdirSync('/tmp/data');
-    }
-  if (!(fs.existsSync(downloadDir))) {
-    fs.mkdirSync(downloadDir);
-  }
 
-  const proc = exec(`git clone https://github.com/${repo}.git ${join(downloadDir, repo.split("/")[1])}`);
-    proc.on('exit', (code) => { 
-      console.log(`Child exited with code ${code}`);
-      resolve();
+
+
+  return new Promise((resolve, reject) => {
+    try {
+
+    } catch (error) {
+      const downloadDir = "/tmp/data/repos"
+      if (!(fs.existsSync('/tmp/data'))) {
+        fs.mkdirSync('/tmp/data');
+      }
+      if (!(fs.existsSync(downloadDir))) {
+        fs.mkdirSync(downloadDir);
+      }
+
+      const proc = exec(`git clone https://github.com/${repo}.git ${join(downloadDir, repo.split("/")[1])}`);
+      proc.on('exit', (code) => {
+        console.log(`Child exited with code ${code}`);
+        resolve();
+      })
+
+    }
   })
-})
+
 }
